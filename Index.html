@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr-Mapach Info</title>
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <style>
+      body {
+        background-image: url("Img/Background.jpg");
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .accordion-button.bg-success {
+        border-color: #198754 !important;
+      }
+    </style>
+  </head>
+  <body class="text-white">
+    <div class="container py-5">
+      <header class="text-center mb-5 text-white">
+        <h1 class="display-4 text-white">
+          Boujour! Soy
+          <span class="text-primary"><strong>Mr-Mapach-77</strong></span>
+        </h1>
+        <p class="lead text-white">
+          Estudiante de la carrera de Analisis y Desarrollo de Sistemas
+        </p>
+      </header>
+
+      <div class="row">
+        <!-- Perfil -->
+        <div class="col-md-4">
+          <div class="card bg-dark text-white text-center mb-4">
+            <div class="card-body">
+              <img
+                src="Img/Perfil.jpg"
+                alt="Foto de perfil"
+                class="profile-img mb-3"
+              />
+              <h3 class="card-title text-white">
+                Marcos Antonio Junior Ayala Ojeda
+              </h3>
+              <p class="card-text text-white">Desarrollador Web</p>
+              <p class="card-text text-white">
+                Contacto:
+                <a href="mailto:marcos200x123@gmail.com" class="text-white">
+                  marcos200x123@gmail.com
+                </a>
+              </p>
+              <div>
+                <a
+                  href="https://www.instagram.com/mr_mapach_77?igsh=MXRxdHF3YWt1eDI5Mw=="
+                  class="btn btn-outline-light btn-sm mx-1"
+                  >Instagram</a
+                >
+                <a
+                  href="https://www.facebook.com/share/1Hn9kLEgn6/"
+                  class="btn btn-outline-light btn-sm mx-1"
+                  >Facebook</a
+                >
+                <a
+                  href="https://www.tiktok.com/@mr_mapach_77?_t=ZM-8wOmxrU92so&_r=1"
+                  class="btn btn-outline-light btn-sm mx-1"
+                  >TikTok</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="col-md-8">
+          <div class="accordion" id="accordionExample">
+            <!-- Informacion de Desarrollador -->
+            <div class="accordion-item bg-dark text-white">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button bg-dark text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <strong>🖥️Informacion de Desarrollador</strong>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body bg-dark text-white">
+                  <p class="text-white">
+                    Estudiante de la Universidad Nacional de Canindeyu, facultad
+                    de Analisis de Sistemas. Egresado en el año
+                    <strong>2023</strong> del Colegio:"Escuela Nacional de
+                    Comercio" en el <strong>Bachiller Tecnico Contable</strong>
+                    <br />Especializado en:
+                  </p>
+                  <ul class="text-white">
+                    <li>
+                      <strong>HTML, CSS, JavaScript:</strong> Nivel Basico
+                    </li>
+                    <li>
+                      <strong>Frameworks: Bootstrap, React:</strong> Nivel
+                      Basico
+                    </li>
+                    <li><strong>Sql, Java:</strong> Nivel Basico</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Informacion Personal -->
+            <div class="accordion-item bg-dark text-white">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed bg-dark text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <strong>🎮Informacion Personal</strong>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body bg-dark text-white">
+                  <ul class="text-white">
+                    <li>
+                      <strong>Nombre:</strong> Marcos Antonio Junior Ayala Ojeda
+                    </li>
+                    <li><strong>Fecha de Nacimiento:</strong> 19/05/2006</li>
+                    <li><strong>Sexo:</strong> Maculino</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pasatiempos -->
+            <div class="accordion-item bg-dark text-white">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed bg-dark text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <strong>🛹Pasatiempos</strong>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body bg-dark text-white">
+                  <ul class="text-white">
+                    <li>Leer libros de tecnología</li>
+                    <li>Jugar videojuegos</li>
+                    <li>Explorar nuevas herramientas de desarrollo</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Contenido -->
+      </div>
+    </div>
+
+    <script src="Js/bootstrap.min.js"></script>
+  </body>
+</html>
